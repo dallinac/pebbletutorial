@@ -4,14 +4,19 @@
         "KEY_TEMPERATURE": 0
     },
     "capabilities": [
-        "location",
-        "configurable"
+        "location"
     ],
     "companyName": "dallinac",
-    "longName": "Tutorial1",
+    "longName": "DOS Watchface",
     "projectType": "native",
     "resources": {
         "media": [
+            {
+                "file": "images/dos.png",
+                "menuIcon": true,
+                "name": "ICON",
+                "type": "png"
+            },
             {
                 "file": "images/background.png",
                 "name": "IMAGE_BACKGROUND",
@@ -30,7 +35,7 @@
         ]
     },
     "sdkVersion": "2",
-    "shortName": "Tutorial1",
+    "shortName": "DOS",
     "uuid": "36359adb-13e2-4a64-b8d3-c970529b078c",
     "versionCode": 1,
     "versionLabel": "1.0",
